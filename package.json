@@ -1,5 +1,5 @@
 {
-  "name": "mysqldump",
+  "name": "wi-sqldump",
   "version": "1.4.3",
   "description": "Create a DUMP from MySQL",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/webcaetano/mysqldump"
+    "url": "https://github.com/hoangbduet/wi-sqldump.git"
   },
   "keywords": [
     "backup",
@@ -23,9 +23,9 @@
   "author": "Andre Caetano",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webcaetano/mysqldump/issues"
+    "url": "https://github.com/hoangbduet/wi-sqldump.git"
   },
-  "homepage": "https://github.com/webcaetano/mysqldump",
+  "homepage": "https://github.com/hoangbduet/wi-sqldump.git",
   "dependencies": {
     "async": "^1.4.2",
     "lodash": "^3.10.1",
