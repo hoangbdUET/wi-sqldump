@@ -1,6 +1,6 @@
 {
   "name": "wi-sqldump",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Create a DUMP from MySQL",
   "main": "index.js",
   "scripts": {
