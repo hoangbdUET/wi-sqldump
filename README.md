@@ -7,7 +7,7 @@ Create a backup from MySQL
 ## Installation
 
 ```
-npm install mysqldump
+npm install wi-sqldump
 ```
 
 Example 
