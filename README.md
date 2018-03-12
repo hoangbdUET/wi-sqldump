@@ -1,6 +1,6 @@
 # Mysql Dump
 
-[![npm version](https://badge.fury.io/js/mysqldump.svg)](http://badge.fury.io/js/mysqldump) [![Build Status](https://travis-ci.org/webcaetano/mysqldump.svg?branch=master)](https://travis-ci.org/webcaetano/mysqldump)
+This repo is 100% clone from https://github.com/webcaetano/mysqldump.git
 
 Create a backup from MySQL
 
@@ -12,7 +12,7 @@ npm install mysqldump
 
 Example 
 ```javascript
-var mysqlDump = require('mysqldump');
+var mysqlDump = require('wi-sqldump');
 
 mysqlDump({
 	host: 'localhost',
@@ -28,7 +28,7 @@ mysqlDump({
 Full Options Example :
 
 ```javascript
-var mysqlDump = require('mysqldump');
+var mysqlDump = require('wi-sqldump');
 
 mysqlDump({
 	host: 'localhost',
@@ -141,22 +141,3 @@ Output filename with directories `Default: './data.sql'`;
 Type: `String`
 
 Path to a unix domain socket to connect to. When used `host` and `port` are ignored.
-
-[![npm](https://nodei.co/npm/mysqldump.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mysqldump)
-
----------------------------------
-
-The MIT [License](https://raw.githubusercontent.com/webcaetano/mysqldump/master/LICENSE.md)
-
-
-Maintainers Wanted
----
-
-![](https://img.shields.io/badge/maintainers-wanted-red.svg)
-
-I am looking for maintainers to help triage issues and merge pull requests for this repository
-
-If you are interested in helping me maintain this library, please let me know! [**Read more here &raquo;**](https://github.com/webcaetano/mysqldump/issues/34)
-
-Your help would be greatly appreciated!
-
